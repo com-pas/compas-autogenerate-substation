@@ -1,0 +1,16 @@
+{
+  "parserOptions": {
+    "requireConfigFile": false,
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    },
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "root": true,
+  "ignorePatterns": ["**/*.html", "*.config.js"]
+}
